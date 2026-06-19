@@ -1,0 +1,63 @@
+#head {
+ font:message-box;
+ background-color:rgb(0, 255, 255)
+}
+
+#p {
+    font-family: fantasy;
+    background-color: rgb(33, 1, 70);
+    width: 30px;
+    height:20px;
+}
+#header {
+    
+    background-color:rgb(156, 175, 241);
+    border-style:solid;
+    border-width:1px;
+    border-color: rgb(60, 33, 69);
+    width: 5px;
+    height:5px;
+
+}
+
+#header:hover {
+    width: 10px;
+    height: 10px;
+    background-color:rgb(0, 255, 17);
+    border-style:solid;
+    border-width:5px;
+    border-color: rgb(255, 0, 153);
+
+}
+html, body {
+height: 100%;
+margin: 0;
+}
+
+body {
+    background-image: url("https://i.pinimg.com/originals/f2/1a/78/f21a78286a39e42bd0ee12846a9aec12.gif");
+    color: rgb(0, 15, 0);
+    background-position: center;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family:monospace;
+}
+.button {
+
+    background-color:rgb(255, 243, 20);
+    color:aqua;
+    border:0lvw;
+    border-radius: 12px;
+    padding:30px 30px;
+
+    
+}
+.button:hover {
+
+    background-color:deeppink ;
+    color:darkblue; 
+}
+.cursor {
+    cursor: wait }
